@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "#Lt_Dev")(type "KiCad")(uri "${KICAD7_FOOTPRINT_DIR}/#Lt_Dev.pretty")(options "")(descr ""))
+  (lib (name "Lt_Dev")(type "KiCad")(uri "E:/Documentos/KiCad/Lt_Dev.pretty")(options "")(descr ""))
+  (lib (name "biblioteca master")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/biblioteca master.pretty")(options "")(descr ""))
+  (lib (name "Jumpers")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/Jumpers.pretty")(options "")(descr ""))
+)
