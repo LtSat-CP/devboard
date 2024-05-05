@@ -1,4 +1,4 @@
-23539214961536777
+23544358180492495
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62818,9 +62818,30 @@ PGB102ST23WR
 3
 3
 Lt_Dev
+SODFL4724X108N
+3-4E1A
+Diode
+0
+2
+2
+Lt_Dev
+SOT65P280X145-8N
+DCN
+Integrated Circuit
+0
+8
+8
+Lt_Dev
 SOT95P230X110-3N
 
 
+0
+3
+3
+Lt_Dev
+SOT95P240X120-3N
+2N7002K
+MOSFET (N-Channel)
 0
 3
 3

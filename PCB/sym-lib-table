@@ -21,4 +21,6 @@
   (lib (name "PGB1010603MR")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/PGB1010603MR.kicad_sym")(options "")(descr ""))
   (lib (name "PGB102ST23WR")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/PGB102ST23WR.kicad_sym")(options "")(descr ""))
   (lib (name "2024-02-18_16-55-30")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/2024-02-18_16-55-30.kicad_sym")(options "")(descr ""))
+  (lib (name "TS3A4742DCNR")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/TS3A4742DCNR.kicad_sym")(options "")(descr ""))
+  (lib (name "TS3A4741DCNR")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/TS3A4741DCNR.kicad_sym")(options "")(descr ""))
 )
