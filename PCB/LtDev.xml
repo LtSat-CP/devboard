@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>E:\Documentos\#UTFPR\#LTSat\LtDev\PCB\LtDev.kicad_sch</source>
-    <date>06/05/2024 19:51:29</date>
+    <date>07/05/2024 11:41:26</date>
     <tool>Eeschema 7.0.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -982,7 +982,7 @@
     </comp>
     <comp ref="J5">
       <value>Conn_02x02_Odd_Even</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical_SMD</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD</footprint>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LtDev.kicad_sch"/>
@@ -993,7 +993,7 @@
     </comp>
     <comp ref="J6">
       <value>Conn_02x02_Odd_Even</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical_SMD</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD</footprint>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LtDev.kicad_sch"/>
@@ -1004,7 +1004,7 @@
     </comp>
     <comp ref="J7">
       <value>Conn_02x02_Odd_Even</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical_SMD</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD</footprint>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LtDev.kicad_sch"/>
@@ -1057,7 +1057,7 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6114c675-6d39-4098-a006-98ae0d80a69e</tstamps>
+      <tstamps>69543472-b395-4e9e-9340-a5d786cbdfd2</tstamps>
     </comp>
     <comp ref="R3">
       <value>10k</value>
@@ -1068,7 +1068,7 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b8854909-4890-4fd6-8596-4efb2f7ca17c</tstamps>
+      <tstamps>44e2d7a6-dd34-45e5-bb4c-6bd79836f009</tstamps>
     </comp>
     <comp ref="R4">
       <value>10k</value>
@@ -1513,26 +1513,62 @@
       <tstamps>be3a7424-b185-4814-8f64-c4a8ef05ac34</tstamps>
     </comp>
     <comp ref="SW1">
-      <value>SW_DIP_x02</value>
-      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin</footprint>
-      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <value>DSHP02TSGER</value>
+      <footprint>Lt_Dev:DSHP02TSGER</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=eda</field>
+        <field name="Description">
+DSHP Series 1.27mm Pitch DIP Switch 4 POS
+</field>
+        <field name="MF">KINGTEK INDUSTRIAL</field>
+        <field name="MP">DSHP02TSGER</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="DSHP02TSGER" part="DSHP02TSGER" description=""/>
+      <property name="MF" value="KINGTEK INDUSTRIAL"/>
+      <property name="Description" value="&#xA;DSHP Series 1.27mm Pitch DIP Switch 4 POS&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=snap"/>
+      <property name="MP" value="DSHP02TSGER"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=eda"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LtDev.kicad_sch"/>
-      <property name="ki_description" value="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
-      <property name="ki_keywords" value="dip switch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7417ede2-89b3-49f8-af49-0c8e45fd3187</tstamps>
+      <tstamps>e975c4b1-474f-4144-9932-6e3f12cd4c47</tstamps>
     </comp>
     <comp ref="SW2">
-      <value>SW_DIP_x02</value>
-      <footprint>Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin</footprint>
-      <libsource lib="Switch" part="SW_DIP_x02" description="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <value>DSHP02TSGER</value>
+      <footprint>Lt_Dev:DSHP02TSGER</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=eda</field>
+        <field name="Description">
+DSHP Series 1.27mm Pitch DIP Switch 4 POS
+</field>
+        <field name="MF">KINGTEK INDUSTRIAL</field>
+        <field name="MP">DSHP02TSGER</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="DSHP02TSGER" part="DSHP02TSGER" description=""/>
+      <property name="MF" value="KINGTEK INDUSTRIAL"/>
+      <property name="Description" value="&#xA;DSHP Series 1.27mm Pitch DIP Switch 4 POS&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=snap"/>
+      <property name="MP" value="DSHP02TSGER"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=eda"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LtDev.kicad_sch"/>
-      <property name="ki_description" value="2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
-      <property name="ki_keywords" value="dip switch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7c253256-a180-423d-a7f0-6da194a738f0</tstamps>
+      <tstamps>ea8850f1-ba00-4459-b894-58559c9efdc9</tstamps>
     </comp>
     <comp ref="SW3">
       <value>SW_Push</value>
@@ -1741,6 +1777,29 @@
         <pin num="12" name="Pin_12" type="passive"/>
         <pin num="13" name="Pin_13" type="passive"/>
         <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DSHP02TSGER" part="DSHP02TSGER">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DSHP02TSGER</field>
+        <field name="Footprint">DSHP02TSGER:DSHP02TSGER</field>
+        <field name="MF">KINGTEK INDUSTRIAL</field>
+        <field name="Description">
+DSHP Series 1.27mm Pitch DIP Switch 4 POS
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=snap</field>
+        <field name="MP">DSHP02TSGER</field>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DSHP02TSGER/GTE/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1P1" name="" type="bidirectional"/>
+        <pin num="1P2" name="" type="bidirectional"/>
+        <pin num="2P1" name="" type="bidirectional"/>
+        <pin num="2P2" name="" type="bidirectional"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -2000,24 +2059,6 @@
         <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Switch" part="SW_DIP_x02">
-      <description>2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SW?DIP?x2*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_DIP_x02</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-        <pin num="3" name="" type="passive"/>
-        <pin num="4" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Switch" part="SW_Push">
       <description>Push button switch, generic, two pins</description>
       <docs>~</docs>
@@ -2176,6 +2217,9 @@
     <library logical="Connector_Generic">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
+    <library logical="DSHP02TSGER">
+      <uri>E:\Documentos\KiCad\models_LtDev\DSHP02TSGER.kicad_sym</uri>
+    </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
@@ -2232,7 +2276,7 @@
       <node ref="IC6" pin="2" pinfunction="VCC" pintype="power_in"/>
       <node ref="IC7" pin="2" pinfunction="VCC" pintype="power_in"/>
       <node ref="IC8" pin="2" pinfunction="VCC" pintype="power_in"/>
-      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
     </net>
     <net code="2" name="/3V3_USB2">
@@ -2247,7 +2291,7 @@
       <node ref="IC2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="IC5" pin="2" pinfunction="VCC" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
@@ -2263,7 +2307,7 @@
       <node ref="IC1" pin="16" pinfunction="VDD" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
@@ -2275,7 +2319,7 @@
       <node ref="F2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="IC3" pin="5" pinfunction="MODE" pintype="passive"/>
       <node ref="IC3" pin="6" pinfunction="VIN2" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
@@ -2289,7 +2333,7 @@
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="F1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="IC3" pin="3" pinfunction="VIN1" pintype="passive"/>
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
@@ -2386,15 +2430,15 @@
       <node ref="D6" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="IC5" pin="1" pinfunction="IN1" pintype="passive"/>
       <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="SW2" pin="3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW2" pin="2P2" pintype="bidirectional"/>
     </net>
     <net code="26" name="/JTAG_DIO">
       <node ref="D26" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="IC5" pin="6" pinfunction="IN2" pintype="passive"/>
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="SW2" pin="4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW2" pin="1P2" pintype="bidirectional"/>
     </net>
     <net code="27" name="/LED">
       <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
@@ -2472,13 +2516,13 @@
       <node ref="IC1" pin="1" pinfunction="SEL1" pintype="passive"/>
       <node ref="IC1" pin="10" pinfunction="SEL2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="SW1" pin="1P2" pintype="bidirectional"/>
     </net>
     <net code="43" name="/SW1_DIP2">
       <node ref="IC1" pin="11" pinfunction="SEL3" pintype="passive"/>
       <node ref="IC1" pin="20" pinfunction="SEL4" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="SW1" pin="2P2" pintype="bidirectional"/>
     </net>
     <net code="44" name="/TXD">
       <node ref="IC1" pin="18" pinfunction="D4" pintype="passive"/>
@@ -2505,14 +2549,14 @@
     </net>
     <net code="48" name="/T_CLK">
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="SW2" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2P1" pintype="bidirectional"/>
       <node ref="U3" pin="15" pinfunction="PA5" pintype="bidirectional"/>
       <node ref="U3" pin="26" pinfunction="PB13" pintype="bidirectional"/>
     </net>
     <net code="49" name="/T_DIO">
       <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1P1" pintype="bidirectional"/>
       <node ref="U3" pin="27" pinfunction="PB14" pintype="bidirectional"/>
     </net>
     <net code="50" name="/T_RST">
@@ -2653,7 +2697,7 @@
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P1" pin="A1" pinfunction="GND" pintype="passive"/>
       <node ref="P1" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="P1" pin="B1" pinfunction="GND" pintype="passive"/>
@@ -2676,8 +2720,8 @@
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="SW1" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1P1" pintype="bidirectional"/>
+      <node ref="SW1" pin="2P1" pintype="bidirectional"/>
       <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="ADJ" pintype="input"/>
       <node ref="U2" pin="1" pinfunction="ADJ" pintype="input"/>

@@ -23,4 +23,6 @@
   (lib (name "2024-02-18_16-55-30")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/2024-02-18_16-55-30.kicad_sym")(options "")(descr ""))
   (lib (name "TS3A4742DCNR")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/TS3A4742DCNR.kicad_sym")(options "")(descr ""))
   (lib (name "TS3A4741DCNR")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/TS3A4741DCNR.kicad_sym")(options "")(descr ""))
+  (lib (name "DSHP02TS-S")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/DSHP02TS-S.kicad_sym")(options "")(descr ""))
+  (lib (name "DSHP02TSGER")(type "KiCad")(uri "E:/Documentos/KiCad/models_LtDev/DSHP02TSGER.kicad_sym")(options "")(descr ""))
 )
